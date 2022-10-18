@@ -20,18 +20,5 @@ pipeline {
                 echo "QA"
              }
         }
-        stage ('Deploy') 
-        { 
-             steps {
-                echo "Deploy"
-             }
-        }
-        stage ('Monitor') 
-        { 
-             steps {
-                echo "Monitor"
-             }
-        }
- 
     }           
  }
